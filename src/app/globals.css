@@ -234,11 +234,23 @@
   width: auto;
 }
 
-.HireButton,
+.HireButton{
+  width: auto;
+  height: auto;
+}
+
+.HireButton button{
+  width: auto;
+  height: auto;
+
+}
+
 .CVbutton{
   width: auto;
   height: auto;
 }
+
+
 .HireButton button{
   --tw-border-opacity: 1;
     border-color: rgb(225 29 72 / var(--tw-border-opacity));
@@ -246,15 +258,17 @@
     background-color: rgb(225 29 72 / var(--tw-bg-opacity));
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity));
-    font-size: 16px;
+    font-size: 14px;
     border-style: solid;
     border-width: 2px;
     border-radius: 0.25rem;
     width: auto;
     margin-top: 1.25rem;
     height: auto;
-    padding-left: 32px;
-    padding-right: 32px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     
 }
 
@@ -266,7 +280,7 @@
 }
 
 .CVbutton button{
-  font-size: 16px;
+  font-size: 14px;
   border-style: solid;
   border-width: 2px;
   border-radius: 0.25rem;
@@ -276,9 +290,11 @@
     color: rgb(255 255 255 / var(--tw-text-opacity));
   --tw-border-opacity: 1;
     border-color: rgb(225 29 72 / var(--tw-border-opacity));
-    padding-left: 32px;
-    padding-right: 32px;
-    width: 160px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: auto;
     margin-top: 1.25rem;
     height: auto;
 }
@@ -917,9 +933,9 @@ footer div p{
 
 }
 
-.ContactPageSubDiv_2 .ContactPageSubDiv3{
-  margin-right: 1.25rem /* 20px */;
 
+.ContactPageSubDiv_2 .ContactPageSubDiv3{
+  margin-right: 1.25rem ;
 }
 
 
@@ -976,59 +992,7 @@ footer div p{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* use media query for responsive */
 
 @media (min-width: 1280px) {
   .HeroImage {
@@ -1038,6 +1002,8 @@ footer div p{
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
+
+
 
 @media (min-width: 1024px) {
   .HeroImage {
@@ -1076,7 +1042,7 @@ footer div p{
   .ContactPageDiv2{
     margin-top: 20px;
     width: 100%;
-    margin-left: 40px !important;
+    /* margin-left: 40px !important; */
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
   
@@ -1148,7 +1114,7 @@ footer div p{
   }
   .ContactPageDiv2{
     margin-top: 20px;
-    width: 100%;
+    width: auto;
     margin-left: 70px !important;
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
